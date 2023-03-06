@@ -45,9 +45,9 @@ const Alldetail = () => {
             <table className='table' border="2px" width="100%">
                 <tr>
                     <th>Name</th>
-                    <th>Phone No.</th>
+                    <th>Ranking</th>
                     <th>Email I'D</th>
-                    <th>Query</th>
+                    <th>Stack</th>
                     
                     <th>Delete</th>
                 </tr>
