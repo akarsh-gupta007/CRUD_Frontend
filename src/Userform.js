@@ -2,7 +2,8 @@ import './App.css';
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"
 import axios from "axios";
-
+import ButtonGroup from '@mui/material/ButtonGroup';
+import Button from '@mui/material/Button';
 function Userform() {
   const [data, setData] = useState({
     name: "",
@@ -56,7 +57,14 @@ function Userform() {
             <label htmlFor="tech">Technology</label>
             <textarea name='tech' value={data.tech} className="form-control" onChange={handlechange} id="tech" placeholder="write your Technology" />
           </div>
-          <button type="submit" className="btn btn-primary">Submit</button>
+          <ButtonGroup
+            disableElevation
+            variant="contained"
+            aria-label="Disabled elevation buttons"
+          >
+            <Button className='btn btntogle1' onClick={() => { navigate("/Alldetail") }} >All details</Button>
+            <Button className='btn btntogle' type="submit" >Submit</Button>
+          </ButtonGroup>
 
 
 
