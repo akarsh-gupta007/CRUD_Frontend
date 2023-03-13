@@ -54,7 +54,7 @@ function Userform() {
           </div>
           <div className="form-group ">
             <label htmlFor="tech">Technology</label>
-            <textarea name='tech' value={data.tech} className="form-control" onChange={handlechange} id="tech" placeholder="write your query" />
+            <textarea name='tech' value={data.tech} className="form-control" onChange={handlechange} id="tech" placeholder="write your Technology" />
           </div>
           <button type="submit" className="btn btn-primary">Submit</button>
 
