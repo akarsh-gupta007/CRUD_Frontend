@@ -33,9 +33,9 @@ function Userform() {
     navigate("./Alldetail")
   }
   return (
-    <div className='main_div2'>
+    <div className='main_div1user'>
 
-      <div  >
+      <div className="main_div2" >
         <h1 className="App">Please Submit your Stack Ranking</h1>
         <form onSubmit={handlesubmit} method="post" action="/Alldetail">
           <div className="form-group">

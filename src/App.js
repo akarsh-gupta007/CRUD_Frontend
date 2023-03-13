@@ -4,7 +4,7 @@ import Userform from './Userform'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 const App = () => {
     return (
-        <div>
+        <div className='apps'>
             {/* <Userform />
             <Alldetail /> */}
 
